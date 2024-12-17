@@ -55,7 +55,7 @@
             // labelPartnersTable
             // 
             labelPartnersTable.Dock = DockStyle.Fill;
-            labelPartnersTable.Font = new Font("Calibri", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            labelPartnersTable.Font = new Font("Calibri", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
             labelPartnersTable.Location = new Point(0, 0);
             labelPartnersTable.Name = "labelPartnersTable";
             labelPartnersTable.Size = new Size(1470, 50);

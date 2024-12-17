@@ -26,7 +26,7 @@ namespace PracticWork_3._2
             dataGridPartners.DataSource = _db.Partners.Local.ToBindingList();
         }
 
-        
+
         // OnClosing - при закрытии формы.
         protected override void OnClosing(CancelEventArgs e)
         {
@@ -35,7 +35,7 @@ namespace PracticWork_3._2
             _db = null;
         }
 
-        
+
         private void DataGridPartners_SelectionChanged(object sender, EventArgs e)
         {
             if (_db != null)
@@ -55,13 +55,13 @@ namespace PracticWork_3._2
             }
         }
         /*
-        private void BttnSave_Click(object sender, EventArgs e)
-        {
-            // Этот код вызывает метод SaveChanges(),
-            // который сохраняет все изменения в БД
-            _db!.SaveChanges();
+private void BttnSave_Click(object sender, EventArgs e)
+{
+   // Этот код вызывает метод SaveChanges(),
+   // который сохраняет все изменения в БД
+   _db!.SaveChanges();
 
-            dataGridView.Refresh();
-        }*/
+   dataGridView.Refresh();
+}*/
     }
 }
